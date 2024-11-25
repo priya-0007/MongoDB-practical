@@ -1,7 +1,7 @@
 # MongoDB-practical
 **************************************************
 ### MongoDB Practical Slip Solution
-#### Slip 1
+## Slip 1
 #### 2) And 3)=>
 ````
 >
@@ -59,7 +59,7 @@ WriteResult({ "nInserted" : 1 })
 mumbai"},{marks:{$lt:50}}]})
 ````
 **************************************************
-#### slip 2
+## slip 2
 #### 2) &3)=>
 ````
 > db.product.insert({name:"robot",price:12000})
@@ -107,7 +107,7 @@ WriteResult({ "nInserted" : 1 })
 kumar",stetus:"processed"})
 ````
 **************************************************
-#### slip 3
+## slip 3
 #### 2)&3)=>
 ````
 > db.book.insert({BName:"shyamchi
@@ -157,7 +157,7 @@ db.book.find({author:"raguramkrishna",published:2017})
 Reilly",$or:[{language:"English"},{language:"marathi"}]})
 ````
 **************************************************
-#### slip 4
+## slip 4
 #### 2)&3)=>
 ````
 >
@@ -201,7 +201,7 @@ me":"XXX"})
 },Hname:"AAA"})
 ````
 **************************************************
-#### slip 5
+## slip 5
 #### 2)&3)=>
 ````
 >
@@ -255,7 +255,7 @@ WriteResult({ "nInserted" : 1 })
 08-07")}},{"user.like":0}]})
 ````
 **************************************************
-#### slip6
+## slip6
 #### 2)&3)=>
 ````
 > db.turisum.insert({name:"veena
@@ -311,7 +311,7 @@ _id:null,"count":{"$sum":"$expense"}}}])
  > db.tour.find({destination:"shillong"})
 ````
 **************************************************
-#### slip 7
+## slip 7
 #### 2)&3)=>
 ````
 > db.scien.insert({fname:"mukesh",lname:"navse",BOD:new
@@ -357,7 +357,7 @@ e
 machine","award.year":{$lt:1980},field:{$size:4}})
 ````
 **************************************************
-#### slip8
+## slip8
 #### 2)&3)=>
 ````
 >
@@ -402,7 +402,7 @@ height:{$gt:10}}]})
  > db.item.find({itemName:"planner",instack:{$lt:20}})
 ````
 **************************************************
-#### slip 9
+## slip 9
 #### 2)&3)=>
 ````
 >
@@ -453,7 +453,7 @@ o
 unt":{"$sum":"$payment"}}}])
 ````
 **************************************************
-#### slip10
+## slip10
 #### 2)&3)=>
 ````
 >
